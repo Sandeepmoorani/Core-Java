@@ -31,10 +31,26 @@ public class assignmentop {
 
 // modulo operator 
          
-        int a = 1;
-        int b =2; 
-        int c = a%b;
-        System.out.println(c);
+        // int a = 1;
+        // int b =2; 
+        // int c = a%b;
+        // System.out.println(c);
+
+
+        int num=7;
+		num=num+2;
+		num+=2;
+		num*=2;
+		
+		num++;    //post increment
+		++num;    //pre increment
+		num--;    //post decrement
+		--num;	  //pre decrement
+		System.out.println(num);
+		
+		int result=num++; //fetch the value and then increment
+		System.out.println(result);		
+	
     }
     
 }
