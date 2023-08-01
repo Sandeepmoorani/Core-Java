@@ -4,6 +4,16 @@ public class var_datatypes {
 
         // variables are the container which stores the data 
         
+
+        System.out.println(3+5);
+		System.out.println(8+7);
+		
+		//int num1=3;
+		//int num2=5;
+		//System.out.println(num1+num2);
+		
+
+
         int a = 8;
         int b=10;
         int c = a+b;
@@ -14,6 +24,19 @@ public class var_datatypes {
         // there are two types of datatyes 
         // 1)  primitive 
         // 2) non_permitive 
+
+
+        int num1=9;
+		byte by=127;
+		short sh=558;
+		long l=5854l;
+		
+		float f=5.8f;
+		double d=5.8;
+		
+		char ch='k';
+		
+		boolean boo=true;
 
         // byte int short long float double and so on 
 
@@ -27,7 +50,7 @@ public class var_datatypes {
         boolean bo = true;
 
 
-        
+
     }
     
 }
