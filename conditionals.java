@@ -44,3 +44,22 @@ else{
 statement 2; //executes when condition 2 is false   
 }  
 }  
+
+
+
+
+// The syntax to use the switch statement is:
+
+switch (expression){  
+    case value1:  
+     statement1;  
+     break;  
+    .  
+    .  
+    .  
+    case valueN:  
+     statementN;  
+     break;  
+    default:  
+     default statement;  
+}  
