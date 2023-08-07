@@ -16,3 +16,16 @@ statement 1; //executes when condition is true
 else{  
 statement 2; //executes when condition is false   
 }  
+
+
+// Syntax of if-else-if statement is:
+
+if(condition 1) {    
+statement 1; //executes when condition 1 is true   
+}  
+else if(condition 2) {  
+statement 2; //executes when condition 2 is true   
+}  
+else {  
+statement 2; //executes when all the conditions are false   
+}  
