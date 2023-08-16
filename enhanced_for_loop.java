@@ -14,8 +14,13 @@ public class enhanced_for_loop {
 
         // enhanced_loop 
 
-        for(int n : arr)
-        System.out.println(n);
+        // for(int n : arr)
+        // System.out.println(n);
+
+for(int n : arr){
+    System.out.println(n);
+}
+
     }
     
 }
