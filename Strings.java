@@ -117,7 +117,7 @@ public class Strings {
 
         // 18. compareTo() method
 
-        System.out.println(st[0].compareTo(st[1]));
+        // System.out.println(st[0].compareTo(st[1]));
 
         // 19. compareToIgnoreCase() method
 
@@ -125,19 +125,19 @@ public class Strings {
 
         // 20. contains() method
 
-        // System.out.println(st[0].contains("S"));
+        System.out.println(st[0].contains("S"));
 
         // 21. contentEquals() method
 
-        // System.out.println(st[0].contentEquals("Sandeep"));
+        System.out.println(st[0].contentEquals("Sandeep"));
 
         // 22. copyValueOf() method
 
-        // char ch[]={'S', 'a', 'n', 'd', 'e', 'e', 'p'};
+        char ch[]={'S', 'a', 'n', 'd', 'e', 'e', 'p'};
 
-        // String s=String.copyValueOf(ch);
+        String sr=String.copyValueOf(ch);
 
-        // System.out.println(s);
+        System.out.println(sr);
 
 
 
