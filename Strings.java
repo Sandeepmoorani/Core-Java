@@ -33,47 +33,46 @@ public class Strings {
 
         // String methods
 
-        // 1. length() method
+        
 
         System.out.println(st[0].length());
 
-        // 2. charAt() method
+        
 
         System.out.println(st[0].charAt(0));
 
-        // 3. concat() method
+      
 
         System.out.println(st[0].concat("Moorani"));
 
-        // 4. equals() method
+       
 
         System.out.println(st[0].equals(st[1]));
 
-        // 5. equalsIgnoreCase() method
+      
 
         System.out.println(st[0].equalsIgnoreCase(st[3]) + "M5" );
 
-        // 6. replace() method
+      
 
         System.out.println(st[0].replace('S', 'Z'));
 
-        // 7. substring() method
 
         System.out.println(st[0].substring(0, 3));
 
-        // 8. toLowerCase() method
+       
 
         System.out.println(st[0].toLowerCase());
 
-        // 9. toUpperCase() method
+       
 
         System.out.println(st[0].toUpperCase());
 
         // 10. trim() method
 
-        // String name=" Sandeep ";
+        String name=" Sandeep ";
 
-        // System.out.println(name.trim());
+        System.out.println(name.trim());
 
         // 11. valueOf() method
 
