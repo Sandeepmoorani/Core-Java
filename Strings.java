@@ -64,11 +64,11 @@ public class Strings {
 
         // 8. toLowerCase() method
 
-        // System.out.println(st[0].toLowerCase());
+        System.out.println(st[0].toLowerCase());
 
         // 9. toUpperCase() method
 
-        // System.out.println(st[0].toUpperCase());
+        System.out.println(st[0].toUpperCase());
 
         // 10. trim() method
 
@@ -78,46 +78,46 @@ public class Strings {
 
         // 11. valueOf() method
 
-        // int a=10;
+        int a=10;
 
-        // String s=String.valueOf(a);
+        String s=String.valueOf(a);
 
-        // System.out.println(s+10);
+        System.out.println(s+10);
 
         // 12. split() method
 
         // String name="Sandeep Moorani";
 
-        // String s[]=name.split(" ");
+        // String st[]=name.split(" ");
 
-        // for(String n : s){
+        // for(String n : st){
 
         //     System.out.println(n);
         // }
 
         // 13. startsWith() method
 
-        // System.out.println(st[0].startsWith("S"));
+        System.out.println(st[0].startsWith("S"));
 
         // 14. endsWith() method
 
-        // System.out.println(st[0].endsWith("p"));
+        System.out.println(st[0].endsWith("p"));
 
         // 15. indexOf() method
 
-        // System.out.println(st[0].indexOf("e"));
+        System.out.println(st[0].indexOf("e"));
 
         // 16. lastIndexOf() method
 
-        // System.out.println(st[0].lastIndexOf("e"));
+        System.out.println(st[0].lastIndexOf("e"));
 
         // 17. isEmpty() method
 
-        // System.out.println(st[0].isEmpty());
+        System.out.println(st[0].isEmpty());
 
         // 18. compareTo() method
 
-        // System.out.println(st[0].compareTo(st[1]));
+        System.out.println(st[0].compareTo(st[1]));
 
         // 19. compareToIgnoreCase() method
 
