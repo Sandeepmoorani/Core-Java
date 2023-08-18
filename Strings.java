@@ -1,28 +1,28 @@
 public class Strings {
     public static void main(String[] args) {
         // two ways to create a string in java // 1. String literal
-		
-       /*  String name1=new String("Sandeep");
-        System.out.println(name1);
 
-        String name2="Sandeep";
-        System.out.println(name2); */
-
-
+        /*
+         * String name1=new String("Sandeep");
+         * System.out.println(name1);
+         * 
+         * String name2="Sandeep";
+         * System.out.println(name2);
+         */
 
         String st[] = new String[5];
-        st[0]="Sandeep";
+        st[0] = "Sandeep";
         // st[1]="qurban";
         // st[2]="zahoor";
         // st[3]="sandeep";
         // st[4]="qurban";
 
         // for(String n : st){
-        //     System.out.println(n);
+        // System.out.println(n);
         // }
 
         // for(int i=0; i<st.length; i++){
-        //     System.out.println(st[i]);
+        // System.out.println(st[i]);
         // }
 
         // st[0]= st[0].concat("Moorani");
@@ -31,8 +31,7 @@ public class Strings {
         // st[0]=st[0].concat("Moorani");
         // System.out.println(st[0]);
 
-
-        // String methods 
+        // String methods
 
         // 1. length() method
 
@@ -52,7 +51,7 @@ public class Strings {
 
         // 5. equalsIgnoreCase() method
 
-        System.out.println(st[0].equalsIgnoreCase(st[3]));
+        System.out.println(st[0].equalsIgnoreCase(st[3]) + "M5" );
 
         // 6. replace() method
 
@@ -72,17 +71,17 @@ public class Strings {
 
         // 10. trim() method
 
-        // String name="    Sandeep    ";
+        // String name=" Sandeep ";
 
         // System.out.println(name.trim());
 
         // 11. valueOf() method
 
-        int a=10;
+        int a = 10;
 
-        String s=String.valueOf(a);
+        String s = String.valueOf(a);
 
-        System.out.println(s+10);
+        System.out.println(s + 10);
 
         // 12. split() method
 
@@ -92,7 +91,7 @@ public class Strings {
 
         // for(String n : st){
 
-        //     System.out.println(n);
+        // System.out.println(n);
         // }
 
         // 13. startsWith() method
@@ -133,22 +132,12 @@ public class Strings {
 
         // 22. copyValueOf() method
 
-        char ch[]={'S', 'a', 'n', 'd', 'e', 'e', 'p'};
+        char ch[] = { 'S', 'a', 'n', 'd', 'e', 'e', 'p' };
 
-        String sr=String.copyValueOf(ch);
+        String sr = String.copyValueOf(ch);
 
         System.out.println(sr);
 
-
-
-
-
-
-
-    
-
-
-        
     }
-    
+
 }
