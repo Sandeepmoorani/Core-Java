@@ -25,6 +25,13 @@ public class Strings {
             System.out.println(st[i]);
         }
 
+        st[0]= st[0].concat("Moorani");
+        System.out.println(st[0]);
+
+        // st[0]=st[0].concat("Moorani");
+        // System.out.println(st[0]);
+
+
 
 
 
