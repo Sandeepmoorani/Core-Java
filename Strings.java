@@ -17,8 +17,12 @@ public class Strings {
         st[3]="sandeep";
         st[4]="qurban";
 
-        for(String n : st){
-            System.out.println(n);
+        // for(String n : st){
+        //     System.out.println(n);
+        // }
+
+        for(int i=0; i<st.length; i++){
+            System.out.println(st[i]);
         }
 
 
