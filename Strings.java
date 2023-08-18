@@ -48,19 +48,19 @@ public class Strings {
 
         // 4. equals() method
 
-        // System.out.println(st[0].equals(st[1]));
+        System.out.println(st[0].equals(st[1]));
 
         // 5. equalsIgnoreCase() method
 
-        // System.out.println(st[0].equalsIgnoreCase(st[3]));
+        System.out.println(st[0].equalsIgnoreCase(st[3]));
 
         // 6. replace() method
 
-        // System.out.println(st[0].replace('S', 'Z'));
+        System.out.println(st[0].replace('S', 'Z'));
 
         // 7. substring() method
 
-        // System.out.println(st[0].substring(0, 3));
+        System.out.println(st[0].substring(0, 3));
 
         // 8. toLowerCase() method
 
