@@ -71,6 +71,28 @@ public class StringBuffers {
 
         // 13. subSequence()
         System.out.println(sb.subSequence(0, 7));
+
+        // 14. indexOf()
+        System.out.println(sb.indexOf("M"));
+
+        // 15. lastIndexOf()
+        System.out.println(sb.lastIndexOf("M"));
+
+        // 16. trimToSize()
+        sb.trimToSize();
+        System.out.println(sb.capacity());
+
+        // 17. setLength()
+        sb.setLength(5);
+        System.out.println(sb);
+
+        // 18. toString()
+        System.out.println(sb.toString());
+
+        // 19. equals() 
+        System.out.println(sb.equals(sb1));
+
+        
        
 
         // sb1.append("SM");
