@@ -62,7 +62,15 @@ public class StringBuffers {
         char ch[] = new char[10];
         sb.getChars(0, 7, ch, 0);
         System.out.println(ch);
-        
+
+        // 11. length()
+        System.out.println(sb.length());
+
+        // 12. substring()
+        System.out.println(sb.substring(0, 7));
+
+        // 13. subSequence()
+        System.out.println(sb.subSequence(0, 7));
        
 
         // sb1.append("SM");
