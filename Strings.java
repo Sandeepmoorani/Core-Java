@@ -33,56 +33,33 @@ public class Strings {
 
         // String methods
 
-        
-
         System.out.println(st[0].length());
-
-        
 
         System.out.println(st[0].charAt(0));
 
-      
-
         System.out.println(st[0].concat("Moorani"));
-
-       
 
         System.out.println(st[0].equals(st[1]));
 
-      
-
-        System.out.println(st[0].equalsIgnoreCase(st[3]) + "M5" );
-
-      
+        System.out.println(st[0].equalsIgnoreCase(st[3]) + "M5");
 
         System.out.println(st[0].replace('S', 'Z'));
 
-
         System.out.println(st[0].substring(0, 3));
-
-       
 
         System.out.println(st[0].toLowerCase());
 
-       
-
         System.out.println(st[0].toUpperCase());
 
-        // 10. trim() method
-
-        String name=" Sandeep ";
+        String name = " Sandeep ";
 
         System.out.println(name.trim());
-
-        // 11. valueOf() method
 
         int a = 10;
 
         String s = String.valueOf(a);
 
         System.out.println(s + 10);
-
-        // 12. split() method
 
         // String name="Sandeep Moorani";
 
@@ -93,49 +70,54 @@ public class Strings {
         // System.out.println(n);
         // }
 
-        // 13. startsWith() method
-
         System.out.println(st[0].startsWith("S"));
-
-        // 14. endsWith() method
 
         System.out.println(st[0].endsWith("p"));
 
-        // 15. indexOf() method
-
         System.out.println(st[0].indexOf("e"));
-
-        // 16. lastIndexOf() method
 
         System.out.println(st[0].lastIndexOf("e"));
 
-        // 17. isEmpty() method
-
         System.out.println(st[0].isEmpty());
-
-        // 18. compareTo() method
 
         // System.out.println(st[0].compareTo(st[1]));
 
-        // 19. compareToIgnoreCase() method
-
         // System.out.println(st[0].compareToIgnoreCase(st[3]));
-
-        // 20. contains() method
 
         System.out.println(st[0].contains("S"));
 
-        // 21. contentEquals() method
-
         System.out.println(st[0].contentEquals("Sandeep"));
-
-        // 22. copyValueOf() method
 
         char ch[] = { 'S', 'a', 'n', 'd', 'e', 'e', 'p' };
 
         String sr = String.copyValueOf(ch);
 
         System.out.println(sr);
+
+        String sr1 = String.copyValueOf(ch, 2, 4);
+
+        System.out.println(sr1);
+
+        System.out.println(st[0].matches("Sandeep"));
+
+        System.out.println(st[0].hashCode());
+
+        System.out.println(st[0].intern());
+
+        System.out.println(st[0].toCharArray());
+
+        System.out.println(st[0].toCharArray());
+
+        System.out.println(st[0].toString());
+
+        System.out.println(st[0].valueOf(st[0]));
+
+        System.out.println(st[0].valueOf(st[0]));
+
+        
+
+
+
 
     }
 
