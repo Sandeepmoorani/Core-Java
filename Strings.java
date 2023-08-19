@@ -100,21 +100,11 @@ public class Strings {
 
         System.out.println(st[0].matches("Sandeep"));
 
-        System.out.println(st[0].hashCode());
-
-        System.out.println(st[0].intern());
-
-        System.out.println(st[0].toCharArray());
-
-        System.out.println(st[0].toCharArray());
-
-        System.out.println(st[0].toString());
-
-        System.out.println(st[0].valueOf(st[0]));
-
-        System.out.println(st[0].valueOf(st[0]));
+        
 
         
+
+
 
 
 
