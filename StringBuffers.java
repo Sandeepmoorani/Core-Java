@@ -28,6 +28,46 @@ public class StringBuffers {
         sb.append("Moorani");
         System.out.println(sb);
 
+        // 2. insert()
+        sb.insert(0, "Mr. ");
+        System.out.println(sb);
+
+        // 3. replace()
+        sb.replace(0, 4, "Mr. ");
+        System.out.println(sb);
+
+        // 4. delete()
+        sb.delete(4, 11);
+        System.out.println(sb);
+
+        // 5. reverse()
+        sb.reverse();
+        System.out.println(sb);
+
+        // 6. capacity()
+        System.out.println(sb.capacity());
+
+        // 7. ensureCapacity()
+        sb.ensureCapacity(50);
+        System.out.println(sb.capacity());
+
+        // 8. charAt()
+        System.out.println(sb.charAt(0));
+
+        // 9. setCharAt()
+        sb.setCharAt(0, 'S');
+        System.out.println(sb);
+
+        // 10. getChars()
+        char ch[] = new char[10];
+        sb.getChars(0, 7, ch, 0);
+        System.out.println(ch);
+        
+       
+
+        // sb1.append("SM");
+        // System.out.println(sb1);
+
 
 
 
